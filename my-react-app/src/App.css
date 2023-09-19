@@ -1,0 +1,74 @@
+.custom-select-container {
+  margin-bottom: 20px;
+}
+
+.custom-select-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.custom-select {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  height: 38px;
+  transition: border-color 0.2s;
+}
+
+.custom-select__control {
+  border: none;
+}
+
+.custom-select__control--is-focused {
+  border-color: #80bdff;
+  box-shadow: none;
+}
+
+.custom-select__control--menu-is-open {
+  border-color: #80bdff;
+  box-shadow: none;
+}
+
+.custom-select__input {
+  height: auto;
+}
+
+.custom-select__single-value {
+  color: #495057;
+}
+
+.custom-select__indicator-separator {
+  display: none;
+}
+
+.custom-select__menu {
+  border: 1px solid #ced4da;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select__menu-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.custom-select__option {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #fff;
+  transition: background-color 0.2s;
+}
+
+.custom-select__option:hover {
+  background-color: #f8f9fa;
+}
+
+.custom-select__option--is-selected {
+  background-color: #cce5ff;
+  color: #007bff;
+}
+
+.custom-select__option--is-focused {
+  background-color: #f2f8fd;
+}
